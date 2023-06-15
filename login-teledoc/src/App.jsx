@@ -1,6 +1,5 @@
 import Register from "./Register";
 import Login from "./login";
-// import { Switch } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route exact path="/login" component={Login} />
       </Routes>
     </BrowserRouter>
     </main>
