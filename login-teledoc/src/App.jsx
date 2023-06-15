@@ -1,5 +1,6 @@
 import Register from "./Register";
 import Login from "./login";
+import { Switch } from 'react-router-dom';
 
 function App() {
   return (
