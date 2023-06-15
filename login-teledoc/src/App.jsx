@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route exact path="/login" component={Login} />
+        <Route path="/login" component={Login} />
       </Routes>
     </BrowserRouter>
     </main>
