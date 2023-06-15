@@ -6,7 +6,7 @@ function App() {
     <main className="App">
       <Login />
       <Switch>
-        <Route path="/register" component={Register} />
+        <Route path="/Register" component={Register} />
       </Switch>
     </main>
   );
