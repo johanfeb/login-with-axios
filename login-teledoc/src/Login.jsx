@@ -3,7 +3,7 @@ import AuthContext from "./context/AuthProvider";
 import { Link } from 'react-router-dom';
 
 import axios from "./Api/axios";
-const LOGIN_URL = "/auth";
+const LOGIN_URL = "https://mockapi.io/projects/6452fa93bce0b0a0f7532c94";
 
 const Login = () => {
   const { setAuth } = useContext(AuthContext);
