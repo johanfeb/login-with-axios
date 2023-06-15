@@ -1,5 +1,5 @@
-import Register from "./Register.jsx";
-import Login from "./Login.jsx";
+import Register from "./Register";
+import Login from "./login";
 
 function App() {
   return (
